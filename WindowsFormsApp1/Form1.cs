@@ -35,7 +35,7 @@ namespace WindowsFormsApp1
             PgBarDurum.Step = PgBarDurum.Maximum / filePathList.Count;
             for (int i = 0; i < filePathList.Count; i++)
             {
-                using (var png = new TinyPngClient("L7w7QPlChLcpx9M0jwVcX1KTP6dp51j8"))
+                using (var png = new TinyPngClient("Paste your TinyPng api Key"))
                 {
                     await png.Compress(filePathList[i].ToString())
                              .Download()
